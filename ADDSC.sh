@@ -1,7 +1,7 @@
 #!/bin/bash
 # 这个脚本用于安装 Docker，初始化 Docker Swarm，创建 overlay 网络，并添加工作节点到 Swarm。
 #
-# 用法: ./script.sh <公网 IP 地址> <网络名称> [<Swarm 端口>] [<工作节点 IP 地址>...]
+# 用法: ./ADDSC.sh <公网 IP 地址> <网络名称> [<Swarm 端口>] [<工作节点 IP 地址>...]
 # 参数:
 #   <公网 IP 地址>     - 用于 Swarm 的公网 IP 地址。
 #   <网络名称>         - 要创建的 overlay 网络的名称。
